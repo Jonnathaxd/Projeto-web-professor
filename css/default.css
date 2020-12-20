@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: white
+}
+#logo {
+    display: block;
+    text-align: center;
+    background-image: url(../images/fundo-header.jpg);
+    background-size: cover;
+
+}
+#conteudo{
+    margin: 0 auto 0 auto;
+    padding: 8rem;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+#logo h1 {
+    font-family: 'Caveat', cursive;
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    bottom: 3rem;
+    font-size: 5rem;
+    margin-right: 2rem;
+}
+#logo img{
+        width: 10rem;
+        display: inline-block;
+}
+#logo p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+ /*                 sessão sandro                      */
+#autor {
+    background-color:rgba(0, 0, 0, 0.582);
+    text-align: center;
+    padding: 4rem;
+    
+}
+
+#autor img {
+    width: 20rem;
+    height: 18rem;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0.5px 0.5px 3px black;
+}
+#autor_carac {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20rem;
+    display: inline-block;
+    text-align: justify;
+    margin-left: 4rem;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+#autor_carac h2{
+    margin-bottom: 1.2rem;
+}
+
+/*               livros sandro                  */
+
+#livros {
+    text-align: center;
+}
+#livros h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin: 3rem;
+}
+.link {
+    display: inline-block;
+    text-align: center;
+    margin: 1.8rem;
+}
+
+.link a {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 15rem;
+    margin: auto;
+    display: block;    
+    text-decoration:none;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size:1.5rem;
+    font-weight: bolder;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+.link a:hover {
+  
+    background-color: white;
+    color: black;
+}
+
+.padrao {
+    width: 16rem;
+    height: 22rem;
+    display: inline-block;
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 0 0 3px black;
+    padding: .5rem;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+
+/*           gratis/impresso                               */
+#gratis{
+    text-align: center;
+}
+#gratis h4 {
+    font-size: 2rem;
+}
+
+#texto {
+    display: inline-block;
+}
+#gratis img {
+    width: 10rem;
+    position: relative;
+    top: 2rem;
+}
+
+#gratis a {
+    color: black;
+    border: 2px solid black;
+    padding:  5rem 2rem 2rem 2rem;
+    border-radius: 2rem;
+    transition: 0.5s;
+}
+
+#gratis a:hover {
+    background-color: rgba(187, 187, 187, 0.658);
+}
+
+#impresso {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#impresso h3 {
+    font-size: 3rem;
+}
+/*                 Rodapé                 */
+
+footer {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    margin-top: 3rem;
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.671);
+
+}
+#contato h4 {
+    font-size: 2rem;
+}
+
+#contato p {
+    font-size: 1.5rem;
+}
+
+#contato{
+    width: 30rem;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+#contato a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#contato a:hover {
+    text-shadow: none;
+    border-radius: 0.4rem;
+    background-color: white;
+    color: black;
+}
