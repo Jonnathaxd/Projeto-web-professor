@@ -7,11 +7,15 @@
         <link rel="shortcut icon" href="./images/icone.png" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/mobile.css">
         <link rel="stylesheet" href="./css/default.css">
     </head>
     <body>
         <header>
-            <nav>
+            <button onclick="ativar_menu()">
+                MENU
+            </button>
+            <nav id='navega'>
                 <ul>
                     <a href="#livros"><li>Livros</li></a>
                     <a href="#autor"><li>Sobre</li></a>
@@ -86,12 +90,25 @@
         <footer>
             <div id='contato'>
                 <h4>CONTATOS</h4>
-                <p>Email: <a href="mailto:sandrobasiliofriend@hotmail.com">sandrobasiliofriend@hotmail.com</a></p>
+                <p>Email: <a target ='_blank' href="mailto:sandrobasiliofriend@hotmail.com">sandrobasiliofriend@hotmail.com</a></p>
                 <p>Instagram: <a href="https://www.instagram.com/sandrolimabasilio/">sandrolimabasilio</a></p>
             </div>
             Criado por: Geova Jonnatha Correia da Silva - Estudante de Sistemas de informação - IFAL
         </footer>
 
+        <script>
+            var ligado = false;
+            function ativar_menu(){
+                if(!ligado){
+                    ligado = true;
+                    document.getElementById('navega').style.display = 'block'
+                }
+                else {
+                    ligado = false;
+                    document.getElementById('navega').style.display = 'none'
+                }
 
+            }
+        </script>
     </body>
 </html>

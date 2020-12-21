@@ -1,76 +1,69 @@
-@media screen and (min-width:845px ){
+@media screen and (max-width:845px ){
     * {
-        margin: 0;
         padding: 0;
+        margin: 0;
+
     }
     body {
-        background: white;
-        font-size: 16px;
+        font-size: 4vw;
     }
-    /*              Menu            */
-    header {
-        max-width: 100%;
-    }
-    header ul {
-        list-style: none;
-        width: 100%;
-        background-color: black;
-        text-align: center;
-    
-    }
-
-    header li{
-        padding: 2rem;
-        display: inline-block;
-        font-family: Arial, Helvetica, sans-serif;
-        
-        
-    }
-    header a {
-        font-size: 1.8rem;
-        background-color: black;
-        margin: 1rem;
-        color: white;
-        padding: 2rem;
-        transition: 0.5s;
-    }
+    /*           menu de navegação          */
     header button {
         display: block;
+        width: 100%;
+        padding: 1rem;
+        font-size:1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:black;
+        color: white;
+        font-weight: bolder;
+        
     }
-    header a:hover {
-        background-color: white;
-        color: black;
-    }
-    #navega {
-        display: block;
+    header nav {
+        display: none;
     }
 
-    /*              logo                */
-
+    header ul {
+        list-style: none;
+    }
+    header li {
+        margin: 0;
+        padding: 1rem;
+        background-color: black;
+    }
+    header a {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: white;
+        text-decoration: none;
+    }
+    /*           fundo da logo        */
     #logo {
         display: block;
         text-align: center;
         background-image: url(../images/fundo-header.jpg);
         background-size: cover;
-
+        background-repeat: no-repeat;
     }
     #conteudo{
         margin: 0 auto 0 auto;
-        padding: 8rem;
+        padding: 2.8rem;
+        box-sizing: border-box;
         background-color: rgba(0, 0, 0, 0.637);
     }
     #logo h1 {
         font-family: 'Caveat', cursive;
-        position: relative;
         display: inline-block;
         color: white;
         text-shadow: 1px 1px 5px black;
-        bottom: 3rem;
-        font-size: 5rem;
-        margin-right: 2rem;
+        font-size: 2rem;
+        margin-right: 1rem;
+        transform: translateY(-50%);
+        
     }
     #logo img{
-            width: 10rem;
+            width: 2.8rem;
             display: inline-block;
     }
     #logo p {
@@ -82,30 +75,32 @@
     #autor {
         background-color:rgba(0, 0, 0, 0.582);
         text-align: center;
-        padding: 4rem;
+        padding: 1.5rem;
         
     }
 
     #autor img {
-        width: 20rem;
-        height: 18rem;
+        width: 12rem;
+        height: 12rem;
+        display: block;
+        margin: auto;
         border-radius: 50%;
         border: 5px solid white;
         box-shadow: 0.5px 0.5px 3px black;
     }
     #autor_carac {
         font-family: Arial, Helvetica, sans-serif;
-        width: 20rem;
-        display: inline-block;
+        display: block;
+        margin: auto;
         text-align: justify;
-        margin-left: 4rem;
         color: white;
         text-shadow: 0 0 3px black;
     }
     #autor_carac h2{
+        text-align: center;
+        margin-top: 1rem;
         margin-bottom: 1.2rem;
     }
-
     /*               livros sandro                  */
 
     #livros {
@@ -113,41 +108,34 @@
     }
     #livros h2 {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 3rem;
-        margin: 3rem;
+        font-size: 2rem;    
+        margin: 1.5rem 0;
     }
     .link {
         display: inline-block;
         text-align: center;
-        margin: 1.8rem;
     }
 
     .link a {
         font-family: Arial, Helvetica, sans-serif;
-        width: 15rem;
-        margin: auto;
-        display: block;    
+        width: 100%;
+        display: inline-block;    
         text-decoration:none;
         background-color: black;
         color: white;
         padding: 1rem;
-        border-radius: 1rem;
-        font-size:1.5rem;
+        font-size:1rem;
         font-weight: bolder;
         border: 2px solid black;
-        transition: 0.5s;
-    }
-    .link a:hover {
-    
-        background-color: white;
-        color: black;
+        box-sizing: border-box;
+        margin: 1rem 0;
     }
 
     .padrao {
-        width: 16rem;
-        height: 22rem;
+        width: 15rem;
+        height: 17rem;
         display: inline-block;
-        margin: 1rem;
+        margin: auto;
         border: 1px solid black;
         border-radius: 1rem;
         box-shadow: 0 0 3px black;
@@ -156,52 +144,51 @@
         background-color: rgba(0, 0, 0, 0.61);
     }
 
-
     /*           gratis/impresso                               */
     #gratis{
+        margin: 1rem auto;
         text-align: center;
+        box-sizing: border-box;
+        width: 100%;
     }
     #gratis h4 {
-        font-size: 2rem;
+        margin-top: 3rem;
+        font-size: 1rem;
     }
 
     #texto {
         display: inline-block;
     }
     #gratis img {
-        width: 10rem;
-        position: relative;
-        top: 2rem;
+        display: none;
     }
 
     #gratis a {
         color: black;
-        border: 2px solid black;
-        padding:  5rem 2rem 2rem 2rem;
-        border-radius: 2rem;
-        transition: 0.5s;
-    }
-
-    #gratis a:hover {
         background-color: rgba(187, 187, 187, 0.658);
+        border: 2px solid black;
+        padding:  3rem 0 2rem 0;
+        border-radius: 2rem;
     }
+    #gratis p {
+        font-size: 0.8rem;
+    } 
 
     #impresso {
         text-align: center;
-        width: 47rem;
+        width: 100%;
         margin: auto;
-        margin-top: 5rem;
-        
+        margin-top: 5rem;    
     }
 
     #impresso h3 {
-        font-size: 3rem;
-        margin-bottom: 2rem;
+        font-size: 2rem;
+        margin-bottom: 1rem;
     }
 
     #impresso p {
         text-align: justify;
-        font-size: 1.3rem;
+        font-size: 1rem;
         margin: 0.5rem;
     }
     /*                 Rodapé                 */
@@ -211,22 +198,21 @@
         color: white;
         text-shadow: 1px 1px 3px black;
         margin-top: 3rem;
-        padding: 3rem;
+        padding: 1rem;
         background-color: rgba(0, 0, 0, 0.671);
+        font-size: 1rem;
 
     }
     #contato h4 {
-        font-size: 2rem;
         margin: 0 0 1rem 0;
     }
 
     #contato p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     #contato{
-        width: 30rem;
-        text-align: left;
+        width: 100%;
         margin: auto;
         margin-bottom: 3rem;
     }
@@ -235,11 +221,5 @@
         text-decoration: none;
         transition: 0.5s;
         border-radius: 0.4rem;
-    }
-
-    #contato a:hover {
-        text-shadow: none; 
-        background-color: white;
-        color: black;
     }
 }
