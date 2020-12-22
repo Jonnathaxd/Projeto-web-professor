@@ -123,6 +123,18 @@
         text-align: center;
         margin: 1.8rem;
     }
+    .link p {
+        display: block;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 2rem;
+        width: 22rem;
+        text-align: justify;
+        font-size: 1.1rem;
+        border: 2px ridge;
+        padding: 0.8rem;
+        margin-bottom: 1rem;
+    }
 
     .link a {
         font-family: Arial, Helvetica, sans-serif;
@@ -189,12 +201,17 @@
     }
 
     #impresso {
+        border: 2px solid rgb(170, 169, 169);
+        box-sizing: border-box;
+        border-radius: 0.6rem;  
+        box-shadow: 1px 1px 3px black;
         text-align: center;
         width: 47rem;
         margin: auto;
         margin-top: 5rem;
         
     }
+    
 
     #impresso h3 {
         font-size: 3rem;

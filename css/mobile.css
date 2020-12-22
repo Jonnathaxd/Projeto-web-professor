@@ -140,7 +140,17 @@
         display: inline-block;
         text-align: center;
     }
-
+    .link p {
+        display: block;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 2rem;
+        text-align: justify;
+        font-size: 1.1rem;
+        border: 2px ridge;
+        padding: 0.8rem;
+        margin: 0.5rem;
+    }
     .link a {
         font-family: Arial, Helvetica, sans-serif;
         width: 100%;
@@ -192,7 +202,7 @@
         color: black;
         background-color: rgba(187, 187, 187, 0.658);
         border: 2px solid black;
-        padding:  3rem 0.8rem 0.8rem 1rem;
+        padding:  3rem 2rem 0.8rem 2rem;
         border-radius: 2rem;
     }
     #gratis p {
@@ -202,6 +212,11 @@
     } 
 
     #impresso {
+        border: 2px solid black;
+        box-sizing: border-box;
+        border-radius: 0.6rem;  
+        box-shadow: 1px 1px 3px black;
+        font-family: arial Arial, Helvetica, sans-serif;
         text-align: center;
         width: 100%;
         margin: auto;
