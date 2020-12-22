@@ -8,6 +8,9 @@
         font-size: 16px;
     }
     /*              Menu            */
+    #mobile_top {
+        display: none;
+    }
     header {
         max-width: 100%;
     }
