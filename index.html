@@ -12,9 +12,22 @@
     </head>
     <body>
         <header>
-            <button onclick="ativar_menu()">
-                MENU
-            </button>
+            <div id='mobile_top'>
+                <button onclick="ativar_menu()">
+                    <img src="./images/menu.png" alt="icone_menu">
+                </button>
+                <div id='top_escrito'>
+                    <h2>ESCRITOTEC</h2>
+                    <img src="./images/logo.png" alt="imagem_mobile" id='img_mobile'>
+                </div>
+                <nav id='navega'>
+                    <ul>
+                        <a href="#livros" onclick="ativar_menu()"><li>Livros</li></a>
+                        <a href="#autor" onclick="ativar_menu()"><li>Sobre</li></a>
+                        <a href="#contato" onclick="ativar_menu()"><li>Contato</li></a>
+                    </ul>
+                </nav>
+            </div>
             <nav id='navega'>
                 <ul>
                     <a href="#livros"><li>Livros</li></a>
@@ -93,22 +106,10 @@
                 <p>Email: <a target ='_blank' href="mailto:sandrobasiliofriend@hotmail.com">sandrobasiliofriend@hotmail.com</a></p>
                 <p>Instagram: <a href="https://www.instagram.com/sandrolimabasilio/">sandrolimabasilio</a></p>
             </div>
-            Criado por: Geova Jonnatha Correia da Silva - Estudante de Sistemas de informação - IFAL
+            <p>Criado por: Geova Jonnatha Correia da Silva - Estudante de Sistemas de informação - IFAL</p>
         </footer>
 
-        <script>
-            var ligado = false;
-            function ativar_menu(){
-                if(!ligado){
-                    ligado = true;
-                    document.getElementById('navega').style.display = 'block'
-                }
-                else {
-                    ligado = false;
-                    document.getElementById('navega').style.display = 'none'
-                }
-
-            }
+        <script src="./scripts/default.js">     
         </script>
     </body>
 </html>

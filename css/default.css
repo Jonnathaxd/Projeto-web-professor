@@ -16,7 +16,6 @@
         width: 100%;
         background-color: black;
         text-align: center;
-    
     }
 
     header li{
@@ -35,7 +34,7 @@
         transition: 0.5s;
     }
     header button {
-        display: block;
+        display: none;
     }
     header a:hover {
         background-color: white;
@@ -88,7 +87,6 @@
 
     #autor img {
         width: 20rem;
-        height: 18rem;
         border-radius: 50%;
         border: 5px solid white;
         box-shadow: 0.5px 0.5px 3px black;
@@ -101,6 +99,7 @@
         margin-left: 4rem;
         color: white;
         text-shadow: 0 0 3px black;
+        font-size: 1.05rem;
     }
     #autor_carac h2{
         margin-bottom: 1.2rem;
